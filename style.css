@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario {
+    background-color: white;
+    display: flex;
+    width: 40vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+form {
+    display: flex;
+    width: 30vw;
+    height: 30vh;
+    flex-direction: column;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: 'Kalam', cursive;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+input {
+    height: 4vh;
+    margin-bottom: 5px;
+}
+
+#somar {
+    margin-left: 5px;
+}
+
+#dividir {
+    margin-left: 5px;
+}
+
+#multiplicar {
+    margin-left: 5px;
+}
+
+#subtrair {
+    margin-left: 5px;
+}
+
+.somando {
+    background-color: skyblue;
+    color: white;
+    transition: all 1s;
+}
+
+.subtraindo {
+    background-color: royalblue;
+    color: white;
+    transition: all 1s;
+}
+
+.dividindo {
+    background-color: darkorchid;
+    color: white;
+    transition: all 1s;
+}
+
+.multiplicando {
+    background-color: hotpink;
+    color: white;
+    transition: all 1s;
+}
+
+.fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
